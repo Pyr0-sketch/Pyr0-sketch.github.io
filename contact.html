@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Danfo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="" class="navbar-brand">Contact</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="home.html" class="nav-link">Home</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+    <div class="container">
+        <main class="main-content">
+            <form action="mailto:info@mcast.com"
+                method="post"
+                enctype="text/plain"
+                class="website-form content-narrow">
+                <h2>share your thougts</h2>
+                <div class="form-elements">
+                    <label for="">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Alexander Smith">
+                </div>
+                <div class="form-elements">
+                    <label for="">Email Address: </label>
+                    <input type="email" name="email" id="email" placeholder="example@mail.com">
+                </div>
+                <div class="form-elements">
+                    <label for="">Subject: </label>
+                    <select name="Subject" id="Subject">
+                        <option value="Share a Story">Share a Story</option>
+                        <option value="Make yourself Heard">Make yourself Heard</option>
+                    </select>
+                </div>
+                <div class="form-elements">
+                    <textarea name="message" id="message" rows="10" placeholder="Message"></textarea>
+                </div>
+                <div class="form-elements">
+                    <button type="submit">Send</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </main>
+    </div>
+    <footer class="website-footer"></footer>
+</body>
+</html>
